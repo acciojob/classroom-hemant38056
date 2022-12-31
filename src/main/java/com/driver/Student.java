@@ -9,4 +9,21 @@ public class Student {
     public Student(){
 
     }
+    public Student(String name, int age, double averageScore){
+        this.name = name;
+        this.age = age;
+        this.averageScore = averageScore;
+    }
+
+    public String getName(){
+        return this.name;
+    }
+
+    public int getAge(){
+        return this.age;
+    }
+
+    public double getAverageScore(){
+        return this.averageScore;
+    }
 }
